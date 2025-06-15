@@ -7,6 +7,10 @@ namespace THEAI_BE.Data
     {
         // Set users
         public DbSet<User> Users => Set<User>(); 
+        // Set threads
+        public DbSet<Threads> Threads => Set<Threads>();
+        // Set messages
+        public DbSet<Messages> Messages => Set<Messages>();
         
  
 
